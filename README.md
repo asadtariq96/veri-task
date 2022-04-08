@@ -3,7 +3,7 @@
 1. clone the repo
 2. `npm install`
 3. `docker-compose up`
-4. `npm start`
+4. `npm run start`
 
 ### Sample requests
 
