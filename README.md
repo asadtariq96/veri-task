@@ -1,7 +1,3 @@
-# Veri Task
-
----
-
 ## How to run
 
 1. clone the repo
@@ -40,3 +36,6 @@ Following are some of the improvements which can be made, but were not implement
 5. Remove redundant insertion queries, filter data before bulk insert
 
 ## Database Diagram
+![image](https://user-images.githubusercontent.com/18158879/162379760-c7c0cb97-3ec2-4129-b0e6-824bded7d190.png)
+
+
