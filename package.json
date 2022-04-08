@@ -1,0 +1,26 @@
+{
+  "name": "veri-task",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./src/index.js",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "got": "^12.0.3",
+    "pino-pretty": "^7.6.0",
+    "postgresql-client": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

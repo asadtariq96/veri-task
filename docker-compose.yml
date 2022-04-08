@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:13.3
+    restart: always
+    environment:
+      POSTGRES_DB: db
+      POSTGRES_USER: devUser
+      POSTGRES_PASSWORD: devPassword
+    ports:
+      - 35432:5432
+    volumes:
+      - db:/var/lib/postgresql/data/
+
+volumes:
+  db: null
